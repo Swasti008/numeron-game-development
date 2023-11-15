@@ -79,6 +79,10 @@ body {
     border: 1px solid white;
     border-radius: 3px;
 }
+/* setting the size of timer text */
+#timer p{
+    font-size: small;
+}
 
 #game-over-text {
     width: 50%;
