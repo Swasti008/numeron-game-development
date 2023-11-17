@@ -63,6 +63,7 @@ function timerON(){
         }
         else{
             window.location.href="./gameover.html"
+            localStorage.setItem('score',score);
         }
         
     },1000);
